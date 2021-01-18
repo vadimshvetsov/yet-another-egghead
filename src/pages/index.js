@@ -2,20 +2,28 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <SEO title="Главная" />
+    <p>
+      <Link to="/testing-course">План курса "Тестирование в JS"</Link>
+    </p>
+    <p>
+      <Link to="/cra">
+        Create React App - что, кому и зачем? Добро ли? или это зло?
+      </Link>
+    </p>
+    <p>
+      <Link to="/refs-workshop">Мини-воркшоп по Refs & DOM</Link>
+    </p>
+    <p>
+      <Link to="/rle">Пишем функцию RLE для компрессии строки</Link>
+    </p>
+    <p>
+      <Link to="/faq">Вопросы, которые стесняются спрашивать, а зря!</Link>
+    </p>
   </Layout>
 )
 
