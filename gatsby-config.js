@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Yet another Egghead`,
-    description: `Project for demonstrate learning skills`,
+    description: `Project for developing teaching skills`,
     author: `@vadimshvetsov`,
   },
   plugins: [
